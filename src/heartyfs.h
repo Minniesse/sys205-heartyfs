@@ -3,6 +3,7 @@
 #include <stdlib.h>
 #include <sys/mman.h>
 #include <string.h>
+#include <unistd.h>
 
 #define DISK_FILE_PATH "/tmp/heartyfs"
 #define BLOCK_SIZE (1 << 9)
